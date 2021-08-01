@@ -2,7 +2,7 @@
 
 <h1>Messages</h1>
 
-<div class="flex-column gap-1">
+<div class="flex-column gap-1 flex-wrap">
   <ngx-ui-message color="primary">
     <ng-container *ngx-ui-message-title>I'm the title</ng-container>
     <ng-container *ngx-ui-message-content>I'm the content</ng-container>
@@ -31,7 +31,7 @@
 
 <h1>Icons</h1>
 
-<div class="flex-row gap-1">
+<div class="flex-row gap-1 flex-wrap">
   <ngx-ui-icon icon="bell"></ngx-ui-icon>
   <ngx-ui-icon icon="bell" brush="r"></ngx-ui-icon>
   <ngx-ui-icon icon="bell" brush="r" [fw]="false"></ngx-ui-icon>
@@ -41,7 +41,7 @@
 
 <h1>Buttons</h1>
 
-<div class="flex-row gap-1 mb-1">
+<div class="flex-row gap-1 mb-1 flex-wrap">
   <button ngx-ui-button color="primary">Primary</button>
   <button ngx-ui-button color="secondary">Secondary</button>
   <button ngx-ui-button color="success">Success</button>
@@ -50,7 +50,7 @@
   <button ngx-ui-button color="error">Error</button>
 </div>
 
-<div class="flex-row gap-1 mb-1">
+<div class="flex-row gap-1 mb-1 flex-wrap">
   <button ngx-ui-button color="primary" icon="bell">Bell</button>
   <button ngx-ui-button color="secondary" icon="cloud">Cloud</button>
   <button ngx-ui-button color="success" icon="check">Check</button>
@@ -59,7 +59,7 @@
   <button ngx-ui-button color="error" icon="times">Times</button>
 </div>
 
-<div class="flex-row gap-1 mb-1">
+<div class="flex-row gap-1 mb-1 flex-wrap">
   <button ngx-ui-button color="primary" icon="bell" iconPosition="right">Bell</button>
   <button ngx-ui-button color="secondary" icon="cloud" iconPosition="right">Cloud</button>
   <button ngx-ui-button color="success" icon="check" iconPosition="right">Check</button>
@@ -68,7 +68,7 @@
   <button ngx-ui-button color="error" icon="times" iconPosition="right">Times</button>
 </div>
 
-<div class="flex-row gap-1 mb-1">
+<div class="flex-row gap-1 mb-1 flex-wrap">
   <button ngx-ui-button color="primary" icon="bell"></button>
   <button ngx-ui-button color="secondary" icon="cloud"></button>
   <button ngx-ui-button color="success" icon="check"></button>
@@ -77,7 +77,7 @@
   <button ngx-ui-button color="error" icon="times"></button>
 </div>
 
-<div class="flex-row gap-1 mb-1">
+<div class="flex-row gap-1 mb-1 flex-wrap">
   <button ngx-ui-button color="primary" icon="bell" [light]="true">Primary</button>
   <button ngx-ui-button color="secondary" icon="cloud" [light]="true">Secondary</button>
   <button ngx-ui-button color="success" icon="check" [light]="true">Success</button>
@@ -86,17 +86,17 @@
   <button ngx-ui-button color="error" icon="times" [light]="true" icon="times">Error</button>
 </div>
 
-<div class="flex-row gap-1 mb-1">
+<div class="flex-row gap-1 mb-1 flex-wrap">
   <button ngx-ui-button color="primary" icon="bell" iconBrush="s">Primary</button>
   <button ngx-ui-button color="primary" icon="bell" iconBrush="r">Secondary</button>
 </div>
 
-<div class="flex-row gap-1 mb-1">
+<div class="flex-row gap-1 mb-1 flex-wrap">
   <button ngx-ui-button color="primary" icon="bell" iconAnimation="spin">Primary</button>
   <button ngx-ui-button color="primary" icon="bell" iconAnimation="pulse">Secondary</button>
 </div>
 
-<div class="flex-row gap-1 mb-1">
+<div class="flex-row gap-1 mb-1 flex-wrap">
   <button ngx-ui-button color="primary" [isDisabled]="true">Primary</button>
   <button ngx-ui-button color="secondary" [isDisabled]="true">Secondary</button>
   <button ngx-ui-button color="success" [isDisabled]="true">Success</button>
@@ -105,7 +105,7 @@
   <button ngx-ui-button color="error" [isDisabled]="true">Error</button>
 </div>
 
-<div class="flex-column gap-1 mb-1">
+<div class="flex-column gap-1 mb-1 flex-wrap">
   <button ngx-ui-button color="primary" size="xs">xs</button>
   <button ngx-ui-button color="secondary" size="s">s</button>
   <button ngx-ui-button color="success" size="m">m</button>
@@ -116,7 +116,7 @@
 
 <h1>Badges</h1>
 
-<div class="flex-row gap-1 mb-1">
+<div class="flex-row gap-1 mb-1 flex-wrap">
   <ngx-ui-badge [value]="50" color="primary"></ngx-ui-badge>
   <ngx-ui-badge [value]="50" color="success"></ngx-ui-badge>
   <ngx-ui-badge [value]="50" color="information"></ngx-ui-badge>
@@ -125,7 +125,7 @@
 </div>
 
 
-<div class="flex-row gap-1 mb-1">
+<div class="flex-row gap-1 mb-1 flex-wrap">
   <ngx-ui-badge [value]="50" [max]="100" color="primary"></ngx-ui-badge>
   <ngx-ui-badge [value]="50" [max]="25" color="success"></ngx-ui-badge>
 </div>
