@@ -1260,10 +1260,10 @@
     "@angular-devkit/schematics" "12.1.4"
     jsonc-parser "3.0.0"
 
-"@ssougnez/ngx-ui@^0.1.1":
-  version "0.1.1"
-  resolved "https://registry.yarnpkg.com/@ssougnez/ngx-ui/-/ngx-ui-0.1.1.tgz#f23038fe38a023f33924fd823bc2a37423b2cb30"
-  integrity sha512-f97f3yQYC3HbT0GgNEmYRmJ7RuBeEdTh4SaD+oWQQT3zhOqE8v79sr9yRXJZIc9+K8esLHwBdt0xNDvrtuIAuA==
+"@ssougnez/ngx-ui@^0.2.0":
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/@ssougnez/ngx-ui/-/ngx-ui-0.2.0.tgz#6bc18047768e7d70ad40843f2227c4f6b6851c21"
+  integrity sha512-OnDvRwK0SmCa7zbQTldZY43knb39s3MjJilXaPutMWvOmZ8VfJcMIW0BDugGSx8hUuq1ShAgF3TMwmMqIlZgJQ==
   dependencies:
     tslib "^2.2.0"
 
